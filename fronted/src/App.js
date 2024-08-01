@@ -1,7 +1,6 @@
 import React from "react";
 
 const App = () => {
-  return <h1>Welcome To ShopPlatform</h1>;
+  return <p>welcome to new version of ShopPlatform</p>;
 };
-//test
 export default App;
