@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: "1",
     name: "Americano",
     image: "/images/americano.jpg",
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: "2",
     name: "Cappuccino",
     image: "/images/cappuccino.jpg",
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 20,
   },
   {
-    _id: "3",
     name: "Cold Brew",
     image: "/images/coldbrew.jpg",
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 19,
   },
   {
-    _id: "4",
     name: "Dalgona Coffee",
     image: "/images/dalgonacoffee.jpg",
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 99,
   },
   {
-    _id: "5",
     name: "Espresso",
     image: "/images/espresso.jpg",
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: "6",
     name: "Latte",
     image: "/images/latte.jpg",
     description:
@@ -78,7 +72,6 @@ const products = [
     numReviews: 18,
   },
   {
-    _id: "7",
     name: "Macchiato",
     image: "/images/macchiato.jpg",
     description:
