@@ -31,3 +31,7 @@ code {
   height: 3em;
   line-height: 1.5em;
 }
+
+.go-back-link {
+  color: black;
+}
