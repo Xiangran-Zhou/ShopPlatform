@@ -16,13 +16,12 @@ app.use(express.urlencoded({ extended: true }));
 app.get("/", (req, res) => {
   res.send("API is running...");
 });
+app.use(cookieParser());
 
 app.use("/api/products", productRoutes);
 app.use("/api/users", userRoutes);
 app.use(notFound);
 app.use(errorHandler);
-
-app.use(cookieParser());
 
 app.listen(port, () => {
   console.log(`Server started on http://localhost:${port}`);
