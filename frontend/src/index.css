@@ -35,3 +35,7 @@ code {
 .go-back-link {
   color: black;
 }
+
+.black-link {
+  color: black !important;
+}
