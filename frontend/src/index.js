@@ -15,8 +15,8 @@ import {
 } from "react-router-dom";
 import PrivateRoute from "./components/PrivateRoute";
 import AdminRoute from "./components/AdminRoute";
-import Homescreen from "./screens/HomeScreen";
-import Productscreen from "./screens/ProductScreen";
+import HomeScreen from "./screens/HomeScreen";
+import ProductScreen from "./screens/ProductScreen";
 import CartScreen from "./screens/CartScreen";
 import LoginScreen from "./screens/LoginScreen";
 import RegisterScreen from "./screens/RegisterScreen";
@@ -34,8 +34,9 @@ import UserEditScreen from "./screens/admin/UserEditScreen";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
-      <Route index={true} element={<Homescreen />} />
-      <Route path="product/:id" element={<Productscreen />} />
+      <Route index={true} element={<HomeScreen />} />
+      <Route path="page/:pageNumber" element={<HomeScreen />} />
+      <Route path="product/:id" element={<ProductScreen />} />
       <Route path="/cart" element={<CartScreen />} />
       <Route path="/login" element={<LoginScreen />} />
       <Route path="/register" element={<RegisterScreen />} />

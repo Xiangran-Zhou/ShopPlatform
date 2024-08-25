@@ -21,7 +21,7 @@ import Message from "../components/Message";
 import { addToCart } from "../slices/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
 
-const Productscreen = () => {
+const ProductScreen = () => {
   const { id: productId } = useParams();
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -222,4 +222,4 @@ const Productscreen = () => {
   );
 };
 
-export default Productscreen;
+export default ProductScreen;
