@@ -1,4 +1,4 @@
-## This is an eCommerce web application built with the MERN stack (MongoDB, Express, React, Node.js). Users can register an account and then log in to purchase goods through PAYPAL, view their profiles and modify them, and view order information. An administrator account can add, delete, and modify products, manage user accounts, and check the status of user orders (payment status and delivery status).
+# This is an eCommerce web application built with the MERN stack (MongoDB, Express, React, Node.js). Users can register an account and then log in to purchase goods through PAYPAL, view their profiles and modify them, and view order information. An administrator account can add, delete, and modify products, manage user accounts, and check the status of user orders (payment status and delivery status).
 
 ## Built With
 
