@@ -11,6 +11,7 @@ import {
   Form,
 } from "react-bootstrap";
 import Rating from "../components/Rating";
+import Mata from "../components/Meta";
 import {
   useGetProductDetailsQuery,
   useCreateReviewMutation,
@@ -74,6 +75,7 @@ const ProductScreen = () => {
         </Message>
       ) : (
         <>
+          <Mata title={product.name} />
           <Row>
             <Col md={6}>
               <Image src={product.image} alt={product.name} fluid />
