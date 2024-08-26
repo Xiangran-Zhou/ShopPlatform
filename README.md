@@ -1,0 +1,1 @@
+This is a shopping platform website built with MERN technology stack, users can register an account and then log in to purchase goods through PAYPAL, view user profile and modify, view order information. Administrator account can add, delete, and modify products, manage user accounts, check the status of user orders (payment status and delivery status).
