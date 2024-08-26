@@ -3,26 +3,26 @@ This is an eCommerce web application built with the MERN stack (MongoDB, Express
 ## Built With
 
 ### Backend (Node.js)
-- **[Express]
-- **[Mongoose]
-- **[bcryptjs]
-- **[jsonwebtoken]
-- **[Multer]
+- [Express]
+- [Mongoose]
+- [bcryptjs]
+- [jsonwebtoken]
+- [Multer]
 
 ### Frontend (React)
-- **[React]
-- **[React Bootstrap]
-- **[Redux Toolkit]
-- **[React Router DOM]
-- **[Axios]
-- **[React Toastify]
-- **[React Icons]
-- **[React Helmet Async]
+- [React]
+- [React Bootstrap]
+- [Redux Toolkit]
+- [React Router DOM]
+- [Axios]
+- [React Toastify]
+- [React Icons]
+- [React Helmet Async]
 
 ### Payment Integration
-- **[PayPal React SDK]
+- [PayPal React SDK]
 
 ### Development Tools
-- **[Nodemon]
-- **[Concurrently]
-- **[Dotenv]
+- [Nodemon]
+- [Concurrently]
+- [Dotenv]
